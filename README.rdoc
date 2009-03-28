@@ -15,9 +15,9 @@ Simply library to allow logging with indenting for ease of reading.
   
 Produces the following in your log:
 
-D, [2009-03-27T20:50:16.910769 #29567] DEBUG -- : Trying something new
-D, [2009-03-27T20:50:16.911328 #29567] DEBUG -- :   -> First step
-D, [2009-03-27T20:50:16.911421 #29567] DEBUG -- :   -> Second step
+  D, [2009-03-27T20:50:16.910769 #29567] DEBUG -- : Trying something new
+  D, [2009-03-27T20:50:16.911328 #29567] DEBUG -- :   -> First step
+  D, [2009-03-27T20:50:16.911421 #29567] DEBUG -- :   -> Second step
 
 
 == Copyright
