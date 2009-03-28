@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "log-block"
-    gem.summary = %Q{TODO}
+    gem.summary = %Q{Automatic indenting of ruby log messages}
     gem.email = "jon@burningbush.us"
     gem.homepage = "http://github.com/jmoses/log-block"
     gem.authors = ["Jon Moses"]
