@@ -1,0 +1,7 @@
+= log-block
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Jon Moses. See LICENSE for details.
