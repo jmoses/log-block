@@ -22,6 +22,13 @@ class LogBlockTest < Test::Unit::TestCase
         assert_last_line @output, "  Block:123Testing"
       end
     end
+    
+    should "return a block logger for `with`" do
+      @logger.with "Block" do |block_logger|
+        block_logger.debug("In Block")
+        assert_last_line @output, "  Block:In Block"
+      end
+    end
   end
   
     
