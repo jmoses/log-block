@@ -5,7 +5,7 @@ require 'tempfile'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'log_block'
+require 'log-block'
 
 class Test::Unit::TestCase
   def last_line( file )
